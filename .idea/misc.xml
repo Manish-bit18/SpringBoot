@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringBootCore/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Properties/pom.xml" />
+        <option value="$PROJECT_DIR$/CRUD_Project/pom.xml" />
       </list>
     </option>
   </component>
