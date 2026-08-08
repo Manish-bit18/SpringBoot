@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Application_Properties/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CRUD_Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Employee Management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Employee_Management/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootCore/src/main/java" charset="UTF-8" />
   </component>
 </project>

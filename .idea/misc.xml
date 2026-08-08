@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/SpringBootCore/pom.xml" />
         <option value="$PROJECT_DIR$/Application_Properties/pom.xml" />
         <option value="$PROJECT_DIR$/CRUD_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/CRUD_Project/Employee Management/pom.xml" />
+        <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
       </list>
     </option>
   </component>
