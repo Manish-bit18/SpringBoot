@@ -1,20 +1,23 @@
-package com.demo.crud_project.entity;
+package com.demo.soft_delete.entity;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
 public class Student {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private int age;
     private String email;
     private int roll_no;
     private String subject;
-
+    private Boolean deleted;
 
     public Long getId() {
         return id;
@@ -64,4 +67,11 @@ public class Student {
         this.subject = subject;
     }
 
+    public Boolean getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(Boolean deleted) {
+        this.deleted = deleted;
+    }
 }

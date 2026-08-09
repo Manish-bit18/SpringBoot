@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/CRUD_Project/pom.xml" />
         <option value="$PROJECT_DIR$/CRUD_Project/Employee Management/pom.xml" />
         <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
+        <option value="$PROJECT_DIR$/Soft_Delete_CRUD_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/Soft_Delete/pom.xml" />
       </list>
     </option>
   </component>
