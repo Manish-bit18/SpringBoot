@@ -85,4 +85,15 @@ public class EmployeeController {
         return ResponseEntity.ok("All Emplyoee Deleted Successfully");
 
     }
+
+    @DeleteMapping("/delete-soft/{id}")
+    public ResponseEntity<String> deleteSoftly(@PathVariable Long id){
+
+        Boolean isDeleted = employeeService.deleteSoftly(id);
+        if(!isDeleted){
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok("The Employee is Softly Delected ");
+    }
 }

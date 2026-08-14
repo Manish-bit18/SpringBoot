@@ -17,13 +17,14 @@ public class EmployeeService {
     }
 
     public Employee addEmployee(Employee employeeDetails){
+         employeeDetails.setDeleted(false);
           Employee savedEmployee = employeeRepository.save(employeeDetails);
 
           return savedEmployee;
     }
 
     public Employee getEmployee(Long id){
-        Optional<Employee> employee = employeeRepository.findById(id);
+        Optional<Employee> employee = employeeRepository.findByIdAndDeletedIsFalse(id);
 
         if(employee.isPresent()){
             return employee.get();
@@ -33,14 +34,14 @@ public class EmployeeService {
     }
 
     public List<Employee> getAllEmployee(){
-        List<Employee> employees = employeeRepository.findAll();
+        List<Employee> employees = employeeRepository.findByDeletedIsFalse();
 
         return employees;
 
     }
 
     public Employee updateEmployeeDetails(Long id , Employee employee){
-        Optional<Employee> employeeDetails = employeeRepository.findById(id);   // Optional gives the values if Present otherwise null
+        Optional<Employee> employeeDetails = employeeRepository.findByIdAndDeletedIsFalse(id);   // Optional gives the values if Present otherwise null
 
         if(employeeDetails.isEmpty()){
             return null;
@@ -70,5 +71,19 @@ public class EmployeeService {
 
     public void deleteAllEmployee(){
         employeeRepository.deleteAll();
+    }
+
+    public Boolean deleteSoftly(Long id){
+        Optional<Employee> existingStudent = employeeRepository.findByIdAndDeletedIsFalse(id);
+
+        if(existingStudent.isEmpty()){
+            return false;
+        }
+
+        Employee employeeTosave = existingStudent.get();
+        employeeTosave.setDeleted(true);
+
+        employeeRepository.save(employeeTosave);
+        return true;
     }
 }

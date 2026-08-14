@@ -14,6 +14,7 @@ public class Employee {
     private String address;
     private String department;
     private int salary;
+    private boolean deleted;
 
     public Long getId() {
         return id;
@@ -69,5 +70,13 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
     }
 }
