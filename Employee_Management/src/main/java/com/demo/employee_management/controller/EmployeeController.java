@@ -27,7 +27,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/get/{id}")
-    public ResponseEntity<Employee> getEmployoyee(@PathVariable Long id) {
+    public ResponseEntity<Employee> getEmployoyee(@RequestParam Long id) {
         Employee employee = employeeService.getEmployee(id);
 
         if (employee == null) {
@@ -54,7 +54,7 @@ public class EmployeeController {
     }
 
     @PutMapping("/update/{id}")
-    public ResponseEntity<String> updateEmployeeDetails(@PathVariable Long id , @RequestBody Employee employee){
+    public ResponseEntity<String> updateEmployeeDetails(@RequestParam Long id , @RequestBody Employee employee){
         Employee updatedDetails = employeeService.updateEmployeeDetails(id , employee);
 
             if(updatedDetails == null){
@@ -69,7 +69,7 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> deleteEmployee(@PathVariable Long id) {
+    public ResponseEntity<String> deleteEmployee(@RequestParam Long id) {
         Boolean isDeleted = employeeService.deleteEmployee(id);
 
         if (!isDeleted) {
@@ -87,7 +87,7 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/delete-soft/{id}")
-    public ResponseEntity<String> deleteSoftly(@PathVariable Long id){
+    public ResponseEntity<String> deleteSoftly(@RequestParam Long id){
 
         Boolean isDeleted = employeeService.deleteSoftly(id);
         if(!isDeleted){
