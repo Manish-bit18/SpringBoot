@@ -26,7 +26,7 @@ public class EmployeeController {
                 .body("Student details added Succesfully");
     }
 
-    @GetMapping("/get/{id}")
+    @GetMapping("/get")
     public ResponseEntity<Employee> getEmployoyee(@RequestParam Long id) {
         Employee employee = employeeService.getEmployee(id);
 
@@ -53,7 +53,7 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 
-    @PutMapping("/update/{id}")
+    @PutMapping("/update")
     public ResponseEntity<String> updateEmployeeDetails(@RequestParam Long id , @RequestBody Employee employee){
         Employee updatedDetails = employeeService.updateEmployeeDetails(id , employee);
 
@@ -68,7 +68,7 @@ public class EmployeeController {
                     .body("Details Updated SuccessFully!");
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/delete")
     public ResponseEntity<String> deleteEmployee(@RequestParam Long id) {
         Boolean isDeleted = employeeService.deleteEmployee(id);
 
@@ -86,7 +86,7 @@ public class EmployeeController {
 
     }
 
-    @DeleteMapping("/delete-soft/{id}")
+    @DeleteMapping("/delete-soft")
     public ResponseEntity<String> deleteSoftly(@RequestParam Long id){
 
         Boolean isDeleted = employeeService.deleteSoftly(id);
