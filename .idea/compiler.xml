@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CRUD_Project" />
         <module name="Application_Properties" />
+        <module name="ServletCrudDemo" />
         <module name="Soft_Delete" />
         <module name="Employee_Management" />
         <module name="SpringBootCore" />
