@@ -10,8 +10,9 @@
         <module name="Application_Properties" />
         <module name="ServletCrudDemo" />
         <module name="Soft_Delete" />
-        <module name="Employee_Management" />
         <module name="SpringBootCore" />
+        <module name="SpringMvcDemo" />
+        <module name="Employee_Management" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

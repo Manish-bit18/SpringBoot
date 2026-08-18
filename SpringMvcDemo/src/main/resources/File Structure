@@ -1,0 +1,33 @@
+For Jsp
+
+MyWebApp/
+│
+├── pom.xml
+│
+└── src/
+    │
+    └── main/
+        │
+        ├── java/
+        │   └── com/demo/
+        │       ├── controller/
+        │       ├── service/
+        │       └── repository/
+        │
+        └── webapp/
+            │
+            ├── WEB-INF/
+            │   ├── web.xml
+            │   └── views/
+            │       ├── home.jsp
+            │       ├── user.jsp
+            │       └── products.jsp
+            │
+            ├── css/
+            │   └── style.css
+            │
+            ├── js/
+            │   └── script.js
+            │
+            └── images/
+                └── logo.png
