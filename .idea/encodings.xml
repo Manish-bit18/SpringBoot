@@ -3,14 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Application_Properties/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CRUD_Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CrudDtoDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Employee Management/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Employee_Management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exception_Handling/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ServletCrudDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ServletCrudDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Soft_Delete/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootCore/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../SpringBoot-LearningCr/CrudDtoDemo/src/main/java" charset="UTF-8" />
   </component>
 </project>
