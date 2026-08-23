@@ -11,6 +11,7 @@
         <module name="ServletCrudDemo" />
         <module name="Soft_Delete" />
         <module name="CrudDtoDemo" />
+        <module name="ProfileDemo" />
         <module name="SpringBootCore" />
         <module name="SpringMvcDemo" />
         <module name="Employee_Management" />
@@ -29,6 +30,7 @@
       <module name="CrudDtoDemo" options="-parameters" />
       <module name="EmployeeManagement" options="-parameters" />
       <module name="Employee_Management" options="-parameters" />
+      <module name="ProfileDemo" options="-parameters" />
       <module name="Soft_Delete" options="-parameters" />
       <module name="SpringBootCore" options="-parameters" />
     </option>

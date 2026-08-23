@@ -1,0 +1,13 @@
+#application.yml file uses indentation
+spring:
+  application:
+    name: ProfileDemo
+
+server:
+  port: 9090
+
+app:
+  welcome:
+    message: Hello World
+    code: 200
+    users: Manish , Rohit
