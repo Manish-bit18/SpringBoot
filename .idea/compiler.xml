@@ -9,6 +9,7 @@
         <module name="CRUD_Project" />
         <module name="Application_Properties" />
         <module name="ServletCrudDemo" />
+        <module name="FilterDemo" />
         <module name="Soft_Delete" />
         <module name="CrudDtoDemo" />
         <module name="ProfileDemo" />
@@ -30,6 +31,7 @@
       <module name="CrudDtoDemo" options="-parameters" />
       <module name="EmployeeManagement" options="-parameters" />
       <module name="Employee_Management" options="-parameters" />
+      <module name="FilterDemo" options="-parameters" />
       <module name="ProfileDemo" options="-parameters" />
       <module name="Soft_Delete" options="-parameters" />
       <module name="SpringBootCore" options="-parameters" />

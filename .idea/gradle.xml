@@ -5,6 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Employee_Management" />
+        <option name="gradleJvm" value="24" />
       </GradleProjectSettings>
     </option>
   </component>
