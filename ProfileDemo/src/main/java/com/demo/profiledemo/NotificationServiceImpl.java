@@ -5,9 +5,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Profile("prod")
-public class NotificationServiceImpl implements NotificationService {
-    @Override
+public class NotificationServiceImpl {
     public String send() {
-        return "Notication Send";
+        return "Notification Send";
     }
 }
