@@ -34,7 +34,7 @@ public class StudentService {
         //isPresent() → Checks if a value exists.
         //get() → Retrieves the value.
         if(studentResp.isPresent()){
-            return  mapToDto(studentResp.get());
+            return mapToDto(studentResp.get());
         }
         return null;
     }
