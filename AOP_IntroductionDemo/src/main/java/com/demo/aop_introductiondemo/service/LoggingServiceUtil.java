@@ -1,0 +1,13 @@
+package com.demo.aop_introductiondemo.service;
+
+public class LoggingServiceUtil {
+
+    public static void logStart(String className, String methodName) {
+        System.out.println("Executing -> " + className + " : " + methodName);
+    }
+
+    public static void logEnd(String className, String methodName) {
+        System.out.println("Finishing -> " + className + " : " + methodName);
+    }
+
+}
