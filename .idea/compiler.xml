@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CRUD_Project" />
+        <module name="InterceptorDemo" />
         <module name="Application_Properties" />
         <module name="ServletCrudDemo" />
         <module name="FilterDemo (1)" />
@@ -34,6 +35,7 @@
       <module name="Employee_Management" options="-parameters" />
       <module name="FilterDemo" options="-parameters" />
       <module name="FilterDemo (1)" options="-parameters" />
+      <module name="InterceptorDemo" options="-parameters" />
       <module name="ProfileDemo" options="-parameters" />
       <module name="Soft_Delete" options="-parameters" />
       <module name="SpringBootCore" options="-parameters" />

@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/ProfileDemo/pom.xml" />
         <option value="$PROJECT_DIR$/FilterDemo/pom.xml" />
         <option value="$PROJECT_DIR$/FilterDemo2/pom.xml" />
+        <option value="$PROJECT_DIR$/InterceptorDemo/pom.xml" />
       </list>
     </option>
   </component>
