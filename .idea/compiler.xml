@@ -12,6 +12,7 @@
         <module name="Soft_Delete" />
         <module name="CrudDtoDemo" />
         <module name="SpringMvcDemo" />
+        <module name="AOP_Demo2" />
         <module name="AOP_IntroductionDemo" />
         <module name="CRUD_Project" />
         <module name="InterceptorDemo" />
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOP_Demo2" options="-parameters" />
       <module name="AOP_IntroductionDemo" options="-parameters" />
       <module name="Application_Properties" options="-parameters" />
       <module name="CRUD_Project" options="-parameters" />
