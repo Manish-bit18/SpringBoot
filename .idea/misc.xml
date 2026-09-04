@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/InterceptorDemo/pom.xml" />
         <option value="$PROJECT_DIR$/AOP_IntroductionDemo/pom.xml" />
         <option value="$PROJECT_DIR$/AOP_Demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/AOP_PointcutsAndProxies/pom.xml" />
       </list>
     </option>
   </component>
