@@ -14,6 +14,7 @@
         <module name="AOP_PointcutsAndProxies" />
         <module name="SpringMvcDemo" />
         <module name="AOP_Demo2" />
+        <module name="AOP_IntroductionDemo (1)" />
         <module name="AOP_IntroductionDemo" />
         <module name="CRUD_Project" />
         <module name="InterceptorDemo" />
@@ -21,6 +22,7 @@
         <module name="ProfileDemo" />
         <module name="SpringBootCore" />
         <module name="Employee_Management" />
+        <module name="CrudDtoDemo (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,11 +34,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AOP_Demo2" options="-parameters" />
       <module name="AOP_IntroductionDemo" options="-parameters" />
+      <module name="AOP_IntroductionDemo (1)" options="-parameters" />
       <module name="AOP_PointcutsAndProxies" options="-parameters" />
       <module name="Application_Properties" options="-parameters" />
       <module name="CRUD_Project" options="-parameters" />
       <module name="CRUD_Project (1)" options="-parameters" />
       <module name="CrudDtoDemo" options="-parameters" />
+      <module name="CrudDtoDemo (1)" options="-parameters" />
       <module name="EmployeeManagement" options="-parameters" />
       <module name="Employee_Management" options="-parameters" />
       <module name="FilterDemo" options="-parameters" />
