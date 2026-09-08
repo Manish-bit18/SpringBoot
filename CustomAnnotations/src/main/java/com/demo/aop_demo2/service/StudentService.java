@@ -7,22 +7,30 @@ import org.springframework.stereotype.Service;
 @Service
 public class StudentService {
 
-
+    @TrackExecutionTime(
+            warnAfter = 2000,
+            operation = "Creating New Student"
+    )
     public Student createStudent(Student student) {
         System.out.println("Student saved");
-        //throw new RuntimeException("Some error happened");
         return student;
     }
 
-    @TrackExecutionTime
-    public String dummyMethod(String s) {
-
-        try{
+    @TrackExecutionTime(
+            warnAfter = 1500,
+            operation = "Get Student Data"
+    )
+    public String getStudent(String s) {
+        try {
             Thread.sleep(2000);
         }
-        catch(InterruptedException e){}
+        catch(Exception e) {}
 
-        System.out.println("dummyMethod called");
+        System.out.println(s);
         return s;
+    }
+
+    public int dummyMethod(String s) {
+        return 0;
     }
 }

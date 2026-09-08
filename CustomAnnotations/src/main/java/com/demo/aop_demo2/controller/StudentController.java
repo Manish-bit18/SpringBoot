@@ -22,7 +22,7 @@ public class StudentController {
     }
 
     @GetMapping
-    public ResponseEntity<String> dummyMethod() {
+    public ResponseEntity<Integer> dummyMethod() {
         String s = "aditya";
         return ResponseEntity.ok(studentService.dummyMethod(s));
     }

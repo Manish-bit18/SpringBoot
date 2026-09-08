@@ -21,12 +21,13 @@
         <module name="ServletCrudDemo" />
         <module name="ProfileDemo" />
         <module name="SpringBootCore" />
-        <module name="Employee_Management" />
+        <module name="JdbcCrudDemo" />
         <module name="CrudDtoDemo (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CRUD_Project (1)" target="17" />
+      <module name="Employee_Management" target="21" />
       <module name="EmployeeManagement" target="21" />
     </bytecodeTargetLevel>
   </component>

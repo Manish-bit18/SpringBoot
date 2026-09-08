@@ -1,25 +1,46 @@
 package com.demo.aop_demo2.aspect;
 
+import com.demo.aop_demo2.annotation.TrackExecutionTime;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 
 public class SimpleAspect {
 
-     @Around("@Annotation(com.demo.aop_demo2.annotation.TrackExecutionTime)")
-     public Object measureExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+//    @Before("@annotation(jdk.jfr.Timestamp)")
+//    public void logBeforeMethod() {
+//        System.out.println("Method Intercepted");
+//    }
 
-         long startTime = System.currentTimeMillis();
+    @Around("@annotation(trackExecutionTime)")
+    public Object measureExecutionTime(ProceedingJoinPoint joinPoint,
+                                       TrackExecutionTime trackExecutionTime)
+            throws Throwable {
+        long startTime = System.currentTimeMillis();
 
-         try{
-             return joinPoint.proceed();
-         }
-         finally {
-             long endTime = System.currentTimeMillis();
-             long executionTime = endTime - startTime;
+        try {
+            return joinPoint.proceed();
+        }
+        finally {
+            long endTime = System.currentTimeMillis();
+            long duration = endTime - startTime;
 
-             String methodName = joinPoint.getSignature().getName();
+            String operation = trackExecutionTime.operation();
 
-             System.out.println("Time taken: " + executionTime + " ms");
-         }
-     }
+            if(operation.isBlank()) {
+                operation = joinPoint.getSignature().getName();
+            }
+
+            long warningThreshold = trackExecutionTime.warnAfter();
+
+            if(duration >= warningThreshold) {
+                System.out.println("SLOW OPERATION ALERT : " +
+                        "Time Taken by " +
+                        operation  + ": " + duration);
+            }
+            else {
+                System.out.println(
+                        "Time Taken by " + operation  + ": " + duration);
+            }
+        }
+    }
 }

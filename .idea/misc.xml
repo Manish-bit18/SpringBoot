@@ -24,10 +24,16 @@
         <option value="$PROJECT_DIR$/AOP_PointcutsAndProxies/pom.xml" />
         <option value="$PROJECT_DIR$/CustomAnnotations/pom.xml" />
         <option value="$PROJECT_DIR$/CrudDtoDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/JdbcCrudDemo/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-26" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" default="true" project-jdk-name="openjdk-26" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 package com.demo.aop_demo2.dto;
 
+import jdk.jfr.Timestamp;
 
+@Timestamp
 public class Student {
     private String name;
     private Integer age;
