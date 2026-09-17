@@ -25,11 +25,14 @@
         <option value="$PROJECT_DIR$/CustomAnnotations/pom.xml" />
         <option value="$PROJECT_DIR$/CrudDtoDemo/pom.xml" />
         <option value="$PROJECT_DIR$/JdbcCrudDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringJdbcDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/HibernateDemo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
+        <option value="$PROJECT_DIR$/HibernateDemo/pom.xml" />
       </set>
     </option>
   </component>
