@@ -32,7 +32,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
-        <option value="$PROJECT_DIR$/HibernateDemo/pom.xml" />
       </set>
     </option>
   </component>

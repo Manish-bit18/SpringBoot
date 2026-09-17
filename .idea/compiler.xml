@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HibernateDemo" />
         <module name="Application_Properties" />
         <module name="FilterDemo (1)" />
         <module name="FilterDemo" />
@@ -30,7 +31,6 @@
       <module name="CRUD_Project (1)" target="17" />
       <module name="Employee_Management" target="21" />
       <module name="EmployeeManagement" target="21" />
-      <module name="HibernateDemo" target="24" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
