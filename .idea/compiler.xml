@@ -20,6 +20,7 @@
         <module name="CRUD_Project" />
         <module name="InterceptorDemo" />
         <module name="ServletCrudDemo" />
+        <module name="HibernateDemo (1)" />
         <module name="ProfileDemo" />
         <module name="SpringBootCore" />
         <module name="SpringJdbcDemo" />
@@ -31,6 +32,7 @@
       <module name="CRUD_Project (1)" target="17" />
       <module name="Employee_Management" target="21" />
       <module name="EmployeeManagement" target="21" />
+      <module name="HibernateDemo2" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +51,8 @@
       <module name="FilterDemo" options="-parameters" />
       <module name="FilterDemo (1)" options="-parameters" />
       <module name="HibernateDemo" options="-parameters" />
+      <module name="HibernateDemo (1)" options="-parameters" />
+      <module name="HibernateDemo2" options="-parameters" />
       <module name="InterceptorDemo" options="-parameters" />
       <module name="ProfileDemo" options="-parameters" />
       <module name="Soft_Delete" options="-parameters" />

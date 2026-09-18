@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/JdbcCrudDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJdbcDemo/pom.xml" />
         <option value="$PROJECT_DIR$/HibernateDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/HibernateDemo2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
