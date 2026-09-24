@@ -16,6 +16,8 @@
     <file url="file://$PROJECT_DIR$/HibernateDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HibernateDemo2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/InterceptorDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JPA_RelationshipDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JPA_RelationshipDemo2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JdbcCrudDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JdbcCrudDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ProfileDemo/src/main/java" charset="UTF-8" />
@@ -26,5 +28,7 @@
     <file url="file://$PROJECT_DIR$/SpringJdbcDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TransactionDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TransactionDemo1/src/main/java" charset="UTF-8" />
   </component>
 </project>

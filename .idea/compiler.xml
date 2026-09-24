@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,6 +14,7 @@
         <module name="Soft_Delete" />
         <module name="CrudDtoDemo" />
         <module name="AOP_PointcutsAndProxies" />
+        <module name="TransactionDemo1" />
         <module name="SpringMvcDemo" />
         <module name="AOP_Demo2" />
         <module name="AOP_IntroductionDemo (1)" />
@@ -21,8 +23,10 @@
         <module name="InterceptorDemo" />
         <module name="ServletCrudDemo" />
         <module name="HibernateDemo (1)" />
+        <module name="JPA_RelationshipDemo" />
         <module name="ProfileDemo" />
         <module name="SpringBootCore" />
+        <module name="JPA_RelationshipDemo (1)" />
         <module name="SpringJdbcDemo" />
         <module name="JdbcCrudDemo" />
         <module name="CrudDtoDemo (1)" />
@@ -33,6 +37,7 @@
       <module name="Employee_Management" target="21" />
       <module name="EmployeeManagement" target="21" />
       <module name="HibernateDemo2" target="17" />
+      <module name="TransactionDemo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -54,10 +59,14 @@
       <module name="HibernateDemo (1)" options="-parameters" />
       <module name="HibernateDemo2" options="-parameters" />
       <module name="InterceptorDemo" options="-parameters" />
+      <module name="JPA_RelationshipDemo" options="-parameters" />
+      <module name="JPA_RelationshipDemo (1)" options="-parameters" />
       <module name="ProfileDemo" options="-parameters" />
       <module name="Soft_Delete" options="-parameters" />
       <module name="SpringBootCore" options="-parameters" />
       <module name="SpringJdbcDemo" options="-parameters" />
+      <module name="TransactionDemo" options="-parameters" />
+      <module name="TransactionDemo1" options="-parameters" />
     </option>
   </component>
 </project>
