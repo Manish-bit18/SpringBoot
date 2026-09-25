@@ -30,5 +30,7 @@
     <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TransactionDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TransactionDemo1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TransactionDemo2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TranscationPropertiesDemo/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -31,6 +31,15 @@
         <module name="JdbcCrudDemo" />
         <module name="CrudDtoDemo (1)" />
       </profile>
+      <profile name="Annotation profile for TranscationPropertiesDemo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="TranscationPropertiesDemo" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CRUD_Project (1)" target="17" />
@@ -38,6 +47,7 @@
       <module name="EmployeeManagement" target="21" />
       <module name="HibernateDemo2" target="17" />
       <module name="TransactionDemo" target="17" />
+      <module name="TransactionDemo1 (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -67,6 +77,8 @@
       <module name="SpringJdbcDemo" options="-parameters" />
       <module name="TransactionDemo" options="-parameters" />
       <module name="TransactionDemo1" options="-parameters" />
+      <module name="TransactionDemo1 (1)" options="-parameters" />
+      <module name="TranscationPropertiesDemo" options="-parameters" />
     </option>
   </component>
 </project>

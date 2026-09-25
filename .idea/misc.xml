@@ -32,12 +32,15 @@
         <option value="$PROJECT_DIR$/JPA_RelationshipDemo2/pom.xml" />
         <option value="$PROJECT_DIR$/TransactionDemo/pom.xml" />
         <option value="$PROJECT_DIR$/TransactionDemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/TransactionDemo2/pom.xml" />
+        <option value="$PROJECT_DIR$/TranscationPropertiesDemo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Employee_Management/pom.xml" />
         <option value="$PROJECT_DIR$/TransactionDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/TransactionDemo2/pom.xml" />
       </set>
     </option>
   </component>
